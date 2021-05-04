@@ -2,7 +2,6 @@ import express from "express"
 import cors from "cors"
 import restaurants from "./api/restaurants.route.js"
 
-const uri = process.env.MONGODB_URI;
 const app = express()
 
 app.use(cors())
